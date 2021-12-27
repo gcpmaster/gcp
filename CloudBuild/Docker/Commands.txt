@@ -2,3 +2,6 @@ mvn clean package
 docker history hello-world:0.1
 docker build -t hello-world:0.1 .
 docker run -p 8080:80 --name my-app  hello-world:0.1
+
+#remove all conatiners
+docker rm -f $(docker ps -a -q)
