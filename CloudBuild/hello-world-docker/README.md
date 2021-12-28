@@ -1,4 +1,4 @@
-# How to work with spring boot hello-world with jib
+# spring boot hello-world with docker & push image into Google Artifact Registry 
 Steps: 
     - mvn clean package
 	- docker build -t hello-world:0.1 .

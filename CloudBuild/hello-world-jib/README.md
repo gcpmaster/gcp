@@ -1,4 +1,4 @@
-# How to work with spring boot hello-world with jib
+# spring boot hello-world with jib plugin & push image into Google Artifact Registry
 Steps: 
     - Create new service account with minimum Roles as "Artifact Registry Writer"
     - Create the key file
