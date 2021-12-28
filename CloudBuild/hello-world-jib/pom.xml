@@ -47,8 +47,11 @@
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>3.1.4</version>
 				<configuration>
+                <!--<from>
+                    <image>openjdk:8-alpine</image>
+                </from>-->
 				  <to>
-					<image>asia-south1-docker.pkg.dev/exam-prep-336103/image-built-with-jib</image>
+					<image>asia-south1-docker.pkg.dev/exam-prep-336103/image-built-with-jib/hello-world:0.1</image>
 				  </to>
 				</configuration>
 				<executions>
